@@ -70,3 +70,6 @@ plt.figure(figsize=(10, 10))
 plt.imshow(img)
 plt.axis('off')  # Hide axes
 plt.show()
+
+result = graph.invoke({"graph_state" : "Hi, this is Lance."})
+print(result)
